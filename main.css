@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    color: darkslategray;
+    position: relative; /* Ensure positioning relative to the body */
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+header {
+    text-align: center;
+}
+
+/* Apply styles to the meme image */
+#memeImage {
+    position: absolute; /* Position the image absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Move to center */
+}
